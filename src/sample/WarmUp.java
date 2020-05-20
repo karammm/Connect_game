@@ -10,7 +10,8 @@ public class WarmUp {
 	public static void main(String[] args) {
 
 		//WAP to create an array for range of values frm 0,1,2,3.....100
-		int [] numArr=new int[100];
+		int [] numArr;
+		numArr = new int[100];
 		for (int i=0;i<=100;i++){
 			numArr[i]=i;
 		}
@@ -26,8 +27,8 @@ public class WarmUp {
 
 		//Same using Java 8 feature
 		List<Integer> numbersList=IntStream.rangeClosed(0,100)      // 0,1,2,3.....100
-									.mapToObj(i-> new Integer(i))   //Integer Object  0,1,2,3.....100
-									.collect(Collectors.toList());  //Add all integer object to ArrayList<Integer>
-	
+				.mapToObj(i-> new Integer(i))   //Integer Object  0,1,2,3.....100
+				.collect(Collectors.toList());  //Add all integer object to ArrayList<Integer>
+
 	}
 }
