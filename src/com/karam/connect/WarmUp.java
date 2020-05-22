@@ -1,4 +1,4 @@
-package sample;
+package com.karam.connect;
 
 
 import java.util.ArrayList;

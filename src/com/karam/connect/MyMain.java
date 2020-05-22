@@ -1,4 +1,4 @@
-package sample;
+package com.karam.connect;
 
 import javafx.application.Application;
 import javafx.application.Platform;
@@ -34,7 +34,7 @@ public class MyMain extends Application {
 		Scene scene = new Scene(rootNode);
 
 		primaryStage.setScene(scene);
-		primaryStage.setTitle("Temperature Converter Tool");
+		primaryStage.setTitle("Connect 4");
 		//primaryStage.setResizable(false);//it will make the screen fix
 		primaryStage.show();//make the application visible to the user
 
