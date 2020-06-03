@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="293.0"
-      prefWidth="438.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1"
-      fx:controller="com.karam.connect.Controller">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="293.0" prefWidth="438.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.karam.connect.Controller">
     <children>
-        <Pane fx:id="myPane" prefHeight="293.0" prefWidth="438.0"/>
+        <Pane fx:id="myPane" prefHeight="293.0" prefWidth="438.0">
+         <children>
+            <Button fx:id="myButton" layoutX="170.0" layoutY="254.0" mnemonicParsing="false" text="Start Animation" />
+         </children></Pane>
     </children>
 </VBox>
